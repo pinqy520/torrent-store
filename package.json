@@ -1,11 +1,11 @@
 {
-  "name": "torrent-fs",
+  "name": "torrent-store",
   "version": "1.0.0",
-  "description": "Simplest file system based on webtorrent",
+  "description": "Simplest data store based on webtorrent",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/pinqy520/torrent-fs",
+  "repository": "https://github.com/pinqy520/torrent-store",
   "license": "MIT",
   "keywords": [],
   "scripts": {
@@ -52,7 +52,8 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "sha.js": "^2.4.11"
+    "@types/webtorrent": "^0.98.4",
+    "webtorrent": "^0.101.2"
   },
   "devDependencies": {
     "ava": "^1.0.0-beta.5.1",
@@ -65,6 +66,7 @@
     "prettier": "^1.13.4",
     "standard-version": "^4.4.0",
     "trash-cli": "^1.4.0",
+    "ts-node": "^7.0.0",
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
     "tslint-immutable": "^4.5.4",

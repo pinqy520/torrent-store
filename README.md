@@ -1,3 +1,3 @@
 # torrent-fs
 
-Simplest file system based on webtorrent
+Simplest file system based on WebTorrent
